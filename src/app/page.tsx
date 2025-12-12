@@ -68,11 +68,32 @@ export default function Home() {
 
         <footer className="flex justify-center">
           <div className="flex items-center gap-3 text-gray-500 text-[10px] md:text-xs tracking-[0.3em] uppercase">
-            <span className="hover:text-white transition-colors duration-300 cursor-default">KOETE</span>
+            <a 
+              href="https://github.com/koetee/ne-viju-smisla" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors duration-300 cursor-pointer"
+            >
+              KOETE
+            </a>
             <span className="text-gray-700">•</span>
-            <span className="hover:text-white transition-colors duration-300 cursor-default">DSTTP</span>
+            <a 
+              href="https://github.com/koetee/ne-viju-smisla" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors duration-300 cursor-pointer"
+            >
+              DSTTP
+            </a>
             <span className="text-gray-700">•</span>
-            <span className="hover:text-white transition-colors duration-300 cursor-default">LUVL</span>
+            <a 
+              href="https://github.com/koetee/ne-viju-smisla" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors duration-300 cursor-pointer"
+            >
+              LUVL
+            </a>
           </div>
         </footer>
       </div>
